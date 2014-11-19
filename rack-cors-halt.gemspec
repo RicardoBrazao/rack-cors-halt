@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.description = %q{Halt a CORS request before hitting the controller.}
   spec.authors     = ["Ricardo Brazão"]
   spec.email       = ["ricardo.p.pbrazao@gmail.com"]
+  spec.homepage    = "https://github.com/RicardoBrazao/rack-cors-halt"
   spec.files       = `git ls-files`.split($/).reject { |f| f == '.gitignore' }
   spec.license     = 'MIT'
 
