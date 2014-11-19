@@ -1,3 +1,5 @@
+require 'json'
+
 module Rack
   class Cors
     class Halt

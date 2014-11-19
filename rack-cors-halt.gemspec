@@ -16,9 +16,4 @@ Gem::Specification.new do |s|
 
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
 
-  spec.add_development_dependency "rack-test", ">= 0"
-  spec.add_development_dependency "rack-cors", ":require => 'rack/cors'",
-                                      "github: 'cyu/rack-cors'", "branch: 'master'"
-
-
 end

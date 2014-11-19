@@ -1,3 +1,6 @@
+require 'rack/cors/halt'
+require 'rack/cors'
+
 use Rack::Cors do
   allow do
     origins '*'
@@ -5,7 +8,9 @@ use Rack::Cors do
   end
 
   allow do
-    origins 'yadayada:3000'
+    origins 'http://yadayada:3000'
     resource '/not_to_everyone', :headers => :any, :methods => [:get, :post, :put, :path, :delete]
   end
 end
+
+use Rack::Cors::Halt
