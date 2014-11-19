@@ -12,6 +12,21 @@ At this time, November 18th 2014, the '0.3.0' version is in the 'master' branch,
 ```ruby
 gem 'rack-cors', :require => 'rack/cors', github: "cyu/rack-cors", branch: 'master'
 ```
+## Installation
+In your `Gemfile` add the line
+
+```ruby
+  gem 'rack-cors-halt'
+```
+and then run
+```
+bundle
+```
+or install it yourself with
+```
+gem install rack-cors-halt
+```
+
 ## Configuration
 
 ### Rack
